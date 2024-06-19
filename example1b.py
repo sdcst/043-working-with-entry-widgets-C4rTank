@@ -32,7 +32,7 @@ e2IntData = tk.IntVar()
 # text creates a set text content, whereas textvariable will display
 # the contents of a variable, and update the contents as soon as the
 # variable contents changes.
-e1 = tk.Entry(win,width=15,textvariable=e1Data)
+e1 = tk.Entry(win,width=16,textvariable=e1Data)
 l1 = tk.Label(win, width=15, textvariable=l1Data)
 e2 = tk.Entry(win, width=15, textvariable = e2Data)
 b1 = tk.Button(win,text="Click for do")
